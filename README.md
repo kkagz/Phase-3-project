@@ -35,3 +35,41 @@ From Kaggle.com, we have obtained a dataset that contains the following details 
 - **total intl charge**: The total monetary cost incurred by the customer for international calls.
 - **customer service calls**: The count of calls the customer has placed to the customer service department.
 - **churn**: A binary indicator for whether the customer has terminated their contract.
+
+
+
+
+
+
+
+
+
+
+# Conclusion
+
+## Model Suitability
+Both models are suitable for churning predictions, but Random Forest stands out with an AUC of 0.92 and a weighted average accuracy of 90%.
+
+## Customer Service Calls
+There is a clear correlation between the number of customer service calls and the likelihood of churn. The more customer service calls a customer makes, the more likely they are to churn.
+
+## Calling Charges Impact
+Reducing calling charges is expected to have a positive effect on reducing the churn rate. Lower charges may make customers less likely to terminate their contracts.
+
+## International Users
+Interestingly, international users appear to have a lower incidence of churning. This suggests that international plan subscribers may be more loyal or satisfied with their service.
+
+# Recommendations
+
+## Model Selection
+Given that Random Forest outperformed other models with an AUC of 0.92 and a 90% weighted average accuracy, it is recommended to prioritize the use of Random Forest for churning predictions.
+
+## Customer Service Enhancement
+To reduce churn, consider enhancing the customer service experience, as a higher number of customer service calls appears to correlate with increased churn. This could involve improving support, response times, or providing additional support resources.
+
+## Pricing Strategy
+To mitigate churn, consider implementing a pricing strategy that includes reducing calling charges. Lower charges can make the service more cost-effective for customers and potentially reduce the likelihood of contract terminations.
+
+## Promote International Plans
+Given that international users have a lower incidence of churning, consider promoting international calling plans. This could include marketing and incentivizing international plans to retain more customers and increase loyalty among subscribers.
+
