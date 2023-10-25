@@ -36,14 +36,9 @@ From Kaggle.com, we have obtained a dataset that contains the following details 
 - **customer service calls**: The count of calls the customer has placed to the customer service department.
 - **churn**: A binary indicator for whether the customer has terminated their contract.
 
-
-
-
-
-
-
-
-
+# Modeling and Evaluating
+We created a logistic regression model( that we later tuned using the GridSearch CV hyperparameter ) as well as 
+a Random Forest model. We evaluated our models using a variety of metrics such as the RUC and AUCs metrics
 
 # Conclusion
 
